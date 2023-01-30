@@ -1,11 +1,12 @@
 {
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service --openssl-legacy-provider serve",
+    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001449",
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
   },
